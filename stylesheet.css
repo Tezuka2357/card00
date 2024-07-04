@@ -76,7 +76,12 @@ a{
  border-bottom :3px solid #131536;
 }
 
-
+.download_btn:hover {
+    color: #ffffff;
+    background-color: #131536;
+  border-bottom :3px solid #7890c7;
+    cursor: pointer;
+}
 
 .logo{
   width: 80%;
