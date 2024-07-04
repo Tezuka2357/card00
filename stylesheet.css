@@ -37,11 +37,7 @@ a{
   color: white;
 }
 
-.fixed_btn { 
-position: fixed;
-	top: 50%;
-  margin: auto;
-}
+
 
 
 
@@ -53,25 +49,37 @@ position: fixed;
   margin: 0px auto;
 }
 
-.o_line{
+/*.o_line{
   background-image: url("O_line.svg");
   background-size:  1100px;    
   background-repeat:  no-repeat;     
   background-position:top center; 
 }
+*/
 
 .box{
-
   max-width: 500px;
   margin: 0 auto;
+  top: 0;
   
-  
+  background-color: #3D60AF;
+}
+
+
+.download_btn { 
+  width: 200px;
+  height: 30px;
+  color: #fff;
+  background-color: #7890c7;
+  border-radius: 100vh;
+  border: none;
+ border-bottom :3px solid #131536;
 }
 
 
 
 .logo{
-  width: 70%;
+  width: 80%;
   max-width: 200px;
   margin: 0 auto;
 }
@@ -80,18 +88,23 @@ position: fixed;
 .logo_com{
   max-width: 300px;
   width: 80%;
-  margin-bottom:50px;
+  /*margin-bottom:50px;*/
 }
 
+.O_under{
+  widows: 100%;
+  transform:translateY(-1px);
+}
 
 footer{
-  margin-top: 35px;
-color: #3D60AF; 
+color: #3D60AF;
+  background-color: white;
   }
 
 .icon{
   height: 50px;
   width: 50px;
   
-  margin: 5px;
+  margin: 5px ;
+  margin-bottom: 24px;
 }
